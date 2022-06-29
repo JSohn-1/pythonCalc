@@ -13,13 +13,13 @@ for i in range(4):
         for m in range(amount):
             if i == 0:
                 f.write("if num1 == " + str(n) + " and sign == '+' and num2 == " + str(m) + ":" + "\n")
-                f.write("     print(\"" + str(n) + "+" + str(m) + " = " + str(n+m) + "\")" + "\n")
+                f.write("     print(\"" + str(n) + " + " + str(m) + " = " + str(n+m) + "\")" + "\n")
             elif i == 1:
                 f.write("if num1 == " + str(n) + " and sign == '-' and num2 == " + str(m) + ":" + "\n")
-                f.write("     print(\"" + str(n) + "-" + str(m) + " = " + str(n-m) + "\")" + "\n")
+                f.write("     print(\"" + str(n) + " - " + str(m) + " = " + str(n-m) + "\")" + "\n")
             elif i == 2:
                 f.write("if num1 == " + str(n) + " and sign == '*' and num2 == " + str(m) + ":" + "\n")
-                f.write("     print(\"" + str(n) + "*" + str(m) + " = " + str(n*m) + "\")" + "\n")
+                f.write("     print(\"" + str(n) + " * " + str(m) + " = " + str(n*m) + "\")" + "\n")
             elif i == 3:
                 try:
                     z = n/m
